@@ -1,0 +1,55 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Appointments App for Businesses",
+      "description": "A comprehensive booking system that allows clients to schedule services online while providing business owners with an intuitive dashboard for managing appointments and staff availability.",
+      "technologies": ["React", "Tailwind CSS", "Node.js", "MongoDB","Express","Shadcn/ui"],
+      "category": ["Businesses app","Web Application","Responsive Design"],
+      "isCompleted": true,
+      "links": {
+        "Frontend": "https://github.com/talkal123/MyTor-App",
+        "Backend": "https://github.com/talkal123/MyTorApi",
+        "demo": "https://my-tor-app.vercel.app"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Booking Clone",
+      "description": "A high-performance travel meta-search engine clone featuring complex filtering systems, real-time availability checking, and a responsive UI for seamless property browsing.",
+      "technologies": ["React", "Vite", "Express", "Responsive Design", "MongoDB","Redux","Shadcn/ui"],
+      "category": ["Clone","Web Application",],
+      "isCompleted": true,
+      "links": {
+        "Frontend": "https://github.com/Yanivridel/BookingClone",
+        "Backend": "https://github.com/Yanivridel/BookingClone",
+        "demo": "https://booking-clone-client.vercel.app/"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Sapir Skincare",
+      "description": "An elegant e-commerce landing page and catalog for a beauty brand, focused on high-end aesthetic presentation and smooth user experience with advanced animations.",
+      "technologies": ["React", "Framer Motion", "Shadcn/ui"],
+      "category": ["Business page","Responsive Design","Landing Page",],
+      "isCompleted": true,
+      "links": {
+        "Frontend": "https://github.com/talkal123/SapirSkincare",
+        "demo": "https://sapir-skincare.com/"
+      }
+    },
+    {
+      "id": 4,
+      "title": "E-commerce Platform",
+      "description": "A robust online marketplace with features like persistent shopping carts, secure checkout integration, and an admin panel for inventory and order management.",
+      "technologies": ["React", "Shadcn/ui", "Node.js", "Express"],
+      "category": ["E-commerce","Responsive Design","Online Store","Web Application"],
+      "isCompleted": true,
+      "links": {
+        "Frontend": "https://github.com/talkal123/OnlineMarket",
+        "Backend": "Local api",
+        "demo": "https://online-market-pi.vercel.app"
+      }
+    }
+  ]
+}
