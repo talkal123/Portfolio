@@ -49,13 +49,12 @@ const HeroContent = () => {
     </div>
   </div>
 
-  {/* דיב 3: רשימת הכפתורים - תמיד אחרון */}
-  <div className="  p-5 order-3 flex-1 md:flex items-center justify-center">
+  <div className=" p-5 order-3 flex-1 md:flex items-center justify-center">
     <div className="flex flex-col gap-3">
       {arr.map((button, index) => (
         <div key={index} className="flex justify-center md:justify-start items-center"> 
             <a href={button.href}>
-              <div className="border border-gray-300 p-2 rounded-full flex items-center gap-2 min-w-[140px]">
+              <div className="border border-gray-300 p-2 rounded-full flex items-center gap-2 min-w-[100px]">
               <span>{button.icon}</span>
               <span className="text-sm">{button.name}</span>
               </div>

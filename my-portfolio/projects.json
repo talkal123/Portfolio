@@ -1,11 +1,14 @@
-{
-  "projects": [
+
+
+  [
     {
       "id": 1,
       "title": "Appointments App for Businesses",
+      "subtitle":"Commercial",
+      "images" :["MyTor3.png","MyTorHomePage.png","MyTorHomePage2.png"],
       "description": "A comprehensive booking system that allows clients to schedule services online while providing business owners with an intuitive dashboard for managing appointments and staff availability.",
-      "technologies": ["React", "Tailwind CSS", "Node.js", "MongoDB","Express","Shadcn/ui"],
-      "category": ["Businesses app","Web Application","Responsive Design"],
+      "technologies": ["React", "Tailwind CSS", "Node.js", "MongoDB", "Express", "Shadcn/ui"],
+      "category": ["Businesses app", "Web Application", "Responsive Design"],
       "isCompleted": true,
       "links": {
         "Frontend": "https://github.com/talkal123/MyTor-App",
@@ -16,9 +19,11 @@
     {
       "id": 2,
       "title": "Booking Clone",
+      "subtitle":"Exploration",
+      "images" :["BookingClone.png","BookingClone2.png","BookingClone3.png"],
       "description": "A high-performance travel meta-search engine clone featuring complex filtering systems, real-time availability checking, and a responsive UI for seamless property browsing.",
-      "technologies": ["React", "Vite", "Express", "Responsive Design", "MongoDB","Redux","Shadcn/ui"],
-      "category": ["Clone","Web Application",],
+      "technologies": ["React", "Vite", "Express", "Responsive Design", "MongoDB", "Redux", "Shadcn/ui"],
+      "category": ["Clone", "Web Application"],
       "isCompleted": true,
       "links": {
         "Frontend": "https://github.com/Yanivridel/BookingClone",
@@ -29,9 +34,11 @@
     {
       "id": 3,
       "title": "Sapir Skincare",
+      "subtitle":"Commercial",
       "description": "An elegant e-commerce landing page and catalog for a beauty brand, focused on high-end aesthetic presentation and smooth user experience with advanced animations.",
+      "images" :["SapirSkincare1.png","SapirSkincare2.png","SapirSkincare3.png","SapirSkincare4.png"],
       "technologies": ["React", "Framer Motion", "Shadcn/ui"],
-      "category": ["Business page","Responsive Design","Landing Page",],
+      "category": ["Business page", "Responsive Design", "Landing Page"],
       "isCompleted": true,
       "links": {
         "Frontend": "https://github.com/talkal123/SapirSkincare",
@@ -40,10 +47,12 @@
     },
     {
       "id": 4,
-      "title": "E-commerce Platform",
+      "subtitle":"Exploration",
+      "title": "E-commerce Project",
       "description": "A robust online marketplace with features like persistent shopping carts, secure checkout integration, and an admin panel for inventory and order management.",
+      "images" :["Cart.png","Cart2.png","Cart3.png","Cart4.png"],
       "technologies": ["React", "Shadcn/ui", "Node.js", "Express"],
-      "category": ["E-commerce","Responsive Design","Online Store","Web Application"],
+      "category": ["E-commerce", "Responsive Design", "Online Store", "Web Application"],
       "isCompleted": true,
       "links": {
         "Frontend": "https://github.com/talkal123/OnlineMarket",
@@ -52,4 +61,3 @@
       }
     }
   ]
-}
