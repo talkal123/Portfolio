@@ -23,6 +23,13 @@ const Nav = () => {
   const [isDisplay, setIsDisplay] = useState(false);
   const [nameOfButton,setNameOfButton] = useState("")
 
+
+  const onClick = (name) => {
+    setNameOfButton(name)
+    document.getElementById(name)?.scrollIntoView({behavior:"smooth"})
+    setNameOfButton("")
+  }
+
   console.log(nameOfButton);
   
 
@@ -52,7 +59,7 @@ const Nav = () => {
                 {buttons.map((button, index) => (
                   <div
                     style={nameOfButton === button.name ? {border:"1px solid gray",color:"gray",boxShadow:"0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)"} : {}}
-                    onClick={() => setNameOfButton(button.name)}
+                    onClick={() => {onClick(button.name)}}
                     key={index}
                     className=" pr-2 pl-2 -1 rounded-r-full rounded-l-full flex items-center justify-center"
                   >
@@ -79,7 +86,7 @@ const Nav = () => {
             <span className="cursor-pointer font-semibold">Available for new project</span>
             </div>
             {buttons.map((button,index) => (
-              <div key={index} onClick={() => setNameOfButton(button.name)} style={nameOfButton === button.name ? {border:"1px solid gray",boxShadow:"0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)"} : {} } className="p-2 flex flex-row items-center gap-1 rounded-r-full rounded-l-full">
+              <div key={index} onClick={() => {onClick(button.name)}} style={nameOfButton === button.name ? {border:"1px solid gray",boxShadow:"0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)"} : {} } className="p-2 flex flex-row items-center gap-1 rounded-r-full rounded-l-full">
                 <span className="cursor-pointer font-semibold">{button.name}</span>
                 </div>
             ))}

@@ -5,7 +5,7 @@ import HeroContent from "../Hero/HeroComponents/HeroContent";
 const Hero = () => {
   return (
     <div className="w-full relative">
-      <div className="absolute w-full p-2">
+      <div className="absolute top-0 w-full p-2">
         <Nav />
       </div>
       <div>
