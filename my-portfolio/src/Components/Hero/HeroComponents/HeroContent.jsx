@@ -3,7 +3,6 @@ import talProfile from "../../../assets/tal_linkedin_profile.jpg";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
-import LetsTalk from "@/Components/LetsTalk/LetsTalk";
 import LetsTalkButton from "@/Helpers/LetsTalkButton";
 
 const HeroContent = () => {
