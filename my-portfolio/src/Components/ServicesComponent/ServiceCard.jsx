@@ -4,7 +4,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/Components/ui/accordion.jsx";
+} from "@/components/ui/accordion.jsx";
 
 const ServiceCard = ({services,setServiceName, serviceName}) => {
   return (

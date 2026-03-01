@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FiArrowUpRight } from "react-icons/fi";
-import LetsTalk from "@/Components/LetsTalk/LetsTalk.jsx";
+import LetsTalk from "@/components/LetsTalk/LetsTalk.jsx";
 import LetsTalkButton from "@/Helpers/LetsTalkButton";
 
 const Nav = () => {
