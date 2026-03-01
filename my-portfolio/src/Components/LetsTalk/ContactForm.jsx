@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState, useContext } from "react";
 import emailjs from "@emailjs/browser";
-import { ScrollContext } from '../../Helpers/ScrollContext';
+import { ScrollContext } from '../../helpers/ScrollContext';
 
 const ContactForm = () => {
   const { contactRef } = useContext(ScrollContext);

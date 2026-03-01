@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FiArrowUpRight } from "react-icons/fi";
 import LetsTalk from "@/components/LetsTalk/LetsTalk.jsx";
-import LetsTalkButton from "@/Helpers/LetsTalkButton";
+import LetsTalkButton from "@/helpers/LetsTalkButton";
 
 const Nav = () => {
   const buttons = [

@@ -3,7 +3,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
-import LetsTalkButton from "@/Helpers/LetsTalkButton";
+import LetsTalkButton from "@/helpers/LetsTalkButton";
 const Footer = () => {
   const arr = [
     {

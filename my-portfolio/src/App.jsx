@@ -6,7 +6,7 @@ import Service from "./components/ServicesComponent/Service";
 import Experience from "./components/Experience/Experience";
 import Footer from "./components/HaveMind/Footer";
 import ContactForm from "./components/LetsTalk/ContactForm";
-import { ScrollProvider } from "../src/Helpers/ScrollContext";
+import { ScrollProvider } from "./helpers/ScrollContext";
 
 function App() {
   return (
