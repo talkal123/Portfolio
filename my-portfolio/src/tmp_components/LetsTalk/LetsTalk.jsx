@@ -11,7 +11,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
+} from "@/tmp_components/ui/alert-dialog";
 import ContactForm from "./ContactForm";
 
 const LetsTalk = () => {

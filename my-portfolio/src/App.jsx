@@ -1,11 +1,11 @@
 import React, { useRef } from "react";
 import "./App.css";
-import Hero from "./components/Hero/Hero";
-import SelectedWorks from "./components/SelectedWorksComponents/SelectedWorks";
-import Service from "./components/ServicesComponent/Service";
-import Experience from "./components/Experience/Experience";
-import Footer from "./components/HaveMind/Footer";
-import ContactForm from "./components/LetsTalk/ContactForm";
+import Hero from "./tmp_components/Hero/Hero";
+import SelectedWorks from "./tmp_components/SelectedWorksComponents/SelectedWorks";
+import Service from "./tmp_components/ServicesComponent/Service";
+import Experience from "./tmp_components/Experience/Experience";
+import Footer from "./tmp_components/HaveMind/Footer";
+import ContactForm from "./tmp_components/LetsTalk/ContactForm";
 import { ScrollProvider } from "./helpers/ScrollContext";
 
 function App() {
