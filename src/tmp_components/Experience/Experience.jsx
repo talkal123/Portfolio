@@ -26,7 +26,7 @@ const Experience = () => {
       <div className=" w-full flex flex-col gap-10 p-5">
         <div className=" w-full flex flex-col items-center gap-5 justify-between md:flex-row">
           <h1 className="text-3xl">/EXPERIENCE</h1>
-          <span>9+ years of experience</span>
+          <span>1+ years of experience</span>
         </div>
         <div className="">
           {experience.map((exp, index) => (

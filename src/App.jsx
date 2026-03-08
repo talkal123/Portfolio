@@ -7,12 +7,14 @@ import Experience from "./tmp_components/Experience/Experience";
 import Footer from "./tmp_components/HaveMind/Footer";
 import ContactForm from "./tmp_components/LetsTalk/ContactForm";
 import { ScrollProvider } from "./helpers/ScrollContext";
+import ThemeProvider from "./helpers/ThemeContext";
 
 function App() {
   return (
     <div className="flex flex-col justify-center items-center animated-bg min-h-screen">
       <div className="flex flex-col w-full">
         <ScrollProvider>
+          <ThemeProvider>
             <Hero />
           <div
             style={{ backgroundColor: "#eeeff0" }}
@@ -32,6 +34,7 @@ function App() {
             <ContactForm />
           </div>
           <Footer />
+          </ThemeProvider>
         </ScrollProvider>
       </div>
     </div>
