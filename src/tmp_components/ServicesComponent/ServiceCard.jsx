@@ -12,7 +12,7 @@ const ServiceCard = ({services,setServiceName, serviceName}) => {
           <AccordionContent className="">
             <div className="flex w-full justify-between">
                 <div><span>{service.subtitle}</span></div>
-                <div className="max-w-[200px] max-h-[50px] rotate-5 absolute top-0 left-3/4 md:rotate-15 max-h-[100px]">
+                <div className="max-w-[200px] max-h-[50px] rotate-0 absolute top-0 left-3/4 md:rotate-15 max-h-[100px]">
                   <img src={service.image} className="max-w-[200px] max-h-[50px] md:max-h-[110px] mt-2" alt="" />
                 </div>
             </div>
