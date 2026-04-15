@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import Ux from '../../../public/ProjectsPhotos/Cart2.png' 
+import Booking from '../../../public/ProjectsPhotos/BookingClone.png' 
+import MyTorHomePage from '../../../public/ProjectsPhotos/MyTorHomePage.png' 
+import SapirSkincare3 from '../../../public/ProjectsPhotos/SapirSkincare3.png' 
 import ServiceCard from './ServiceCard'
 
 const Service = () => {
@@ -15,20 +18,20 @@ const Service = () => {
         {
             value: "item-2",
             title: "WEB DESIGN",
-            subtitle:"Designing clear mobile apps and websites",
-            image: Ux
+            subtitle:"Building responsive, high-performing, and modern websites.",
+            image: Booking
         },
         {
             value: "item-3",
             title: "BRANDING",
-            subtitle:"Designing clear mobile apps and websites",
-            image: Ux
+            subtitle:"Creating unique visual identities that tell your story",
+            image: SapirSkincare3
         },
         {
             value: "item-4",
             title: "MOTIONS & ANIMATIONS",
-            subtitle:"Designing clear mobile apps and websites",
-            image: Ux
+            subtitle:"Bringing static designs to life with dynamic movement",
+            image: MyTorHomePage
         }
     ]
   return (
